@@ -262,7 +262,7 @@ function createCall() {
   outboundCall = currentCall = voxAPI.call({
     number: document.getElementById('phonenum').value, 
     video: { receiveVideo: true, sendVideo: true }, 
-    customData: "TEST CUSTOM DATA"
+    customData: "TEST CUSTOM DATA",
     H264first: true
 });
   currentCall.on(VoxImplant.CallEvents.Connected, onCallConnected);
