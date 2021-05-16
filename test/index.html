@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<body>
+<link lang="en">
+<head>
+
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <style>
+body {
+	background: linear-gradient(-90deg, #687bbe, #9cd083, #ff9a5b, #f40909);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+html {
+	height: 100%;
+	display: flex;
+}
+.Hi {
+font-family: 'KoHo', sans-serif;
+}
+.Text{font-family: 'Open Sans Condensed', sans-serif;}
+ .pressed-button {
+  text-decoration: none;
+
+  border: 0px;
+  display: inline-block;
+  padding: 12px 40px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  background-image: linear-gradient(90deg, #44C173 0%, #33d9de 50%, #4489C1 100%);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+  transition: .5s;
+}
+.pressed-button:hover {
+  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
+}
+</style>
+<meta http-equiv="Refresh" content="30" />
+    <center>
+        <h1 id="text" class="Hi" font size="6" color="#4BE788">Hello</h1>
+        <h3 class="Hi"color="#4BE788">Stats at {{ time }}:</h3>
+        <h5 class="Hi">CPU Usage: {{ cpu }}%</h5>
+        <h5 class="Hi">Memory Usage: {{ memory }}GB or {{ MP }}%</h5>
+         <form><button id="b1" class="pressed-button" type="button">Button</button></form>
+        <form><button id="reload" class="pressed-button" type="button">Reload</button></form>
+        <h5 class="Hi">For what</h5>
+        <ul>
+            <li>idk</li>
+            <li>idk</li>
+            <li>idk</li>
+        </ul>
+         <h4 class="Text">Этот <wbr>сайт <wbr>сделан <wbr>для <wbr>того, <wbr>чтобы <wbr>делиться <wbr>с <wbr><wbr>окружающими <wbr>людьми <wbr>позитивом, <wbr>поднимать <wbr>настроение <wbr>и <wbr>тем <wbr>самым, <wbr>улучшать <wbr>их <wbr>самочувствие. <wbr>На <wbr>этом <wbr>сайте <wbr>ты <wbr>можешь <wbr>делиться <wbr>своим <wbr>позитивом <wbr>и <wbr>дарить <wbr>улыбку <wbr>всем <wbr>посетителям. <wbr>(RuGPT3©)</h4>
+        <img src="https://solarimpulse.com/files/news/hero_banner/2020-06-08-165259/1591627979.jpg" alt="альтернативный текст" height="100">
+    <p>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀⠀<wbr>⠀<wbr>⠀<wbr>⠀</p></center>
+
+</body></html>
+<script>
+      "use strict";
+  function type(my_string, test, p) {
+  typing: for (let i = 0; i < test.length; i++) { // выведет 0,     затем 1, затем
+   var du = document.querySelector('.Hi');
+   setTimeout(() => {
+   document.querySelector('.Hi').innerHTML = my_string;
+    my_string += test[i]
+    document.querySelector('.Hi').innerHTML += test[i];
+    if (i != test.length-1) {
+    document.querySelector('.Hi').innerHTML += '|';
+      }
+    else {
+       cont(p)
+    }
+    }, 150*(i+1));
+  }}
+ function del(test, p) {
+  deleting: for (let i = 0; i <= test.length +1; i++) { // выведет 0,     затем 1, затем
+  let my_string = '';
+   var du = document.querySelector('.du');
+   setTimeout(() => {
+    my_string = test.slice(0, test.length-i);
+    document.querySelector('.Hi').innerHTML = my_string;
+    if (i != test.length-1) {
+    document.querySelector('.Hi').innerHTML += '|';
+      }
+    else {
+      cont(p)
+      /*setTimeout(() => {
+        document.querySelector('.Hi').innerHTML = test[0];
+    }, 150*(i));*/
+    }
+    }, 150*(i+1));
+    setTimeout(() => {
+      document.querySelector('.Hi').innerHTML = ''
+      }, 150*(test.length+1));
+  }
+}
+function type(my_string, test, p) {
+  typing: for (let i = 0; i < test.length; i++) { // выведет 0,     затем 1, затем
+   var du = document.querySelector('.du');
+   setTimeout(() => {
+   document.querySelector('.Hi').innerHTML = my_string;
+    my_string += test[i]
+    document.querySelector('.Hi').innerHTML += test[i];
+    if (i != test.length-1) {
+    document.querySelector('.Hi').innerHTML += '|';
+      }
+    else {
+       cont(p)
+    }
+    }, 150*(i+1));
+  }
+}
+const newButton = document.getElementById('b1');
+ let a=1;
+ function cont(x){
+ if (x==2){
+ let du = document.querySelector('.Hi')
+ du.innerHTML=''
+ type(``, 'Thanks for pressing button.')}}
+function b1(){
+  console.log(a)
+  if(a==1){
+  del('Hello', 2)
+  a=0;}
+  return false;}
+ function reload(){
+  console.log(a)
+  if(a==1){
+  document.location.reload()
+  a=0;}
+  return false;}
+newButton.addEventListener('click', b1);
+const gf = document.getElementById('reload');
+gf.addEventListener('click', reload);
+</script>
+</html>
