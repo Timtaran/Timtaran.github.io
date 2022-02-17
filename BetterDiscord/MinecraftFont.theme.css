@@ -6,7 +6,7 @@
  * @source       https://Timtaran.github.io/BetterDiscord/MinecraftFont.theme.css
 */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://Timtaran.github.io/minecraft.ttf);
+@import url(https://timtaran.github.io/BetterDiscord/minecraft.ttf);
 
 :root {
 --Chat-Font-Used: 'Minecraft Rus Regular', Rus ;
